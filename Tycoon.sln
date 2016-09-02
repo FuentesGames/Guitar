@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2A69A064-16B1-EE7D-0FB3-BAF3E3A58433}") = "Tycoon", "Assembly-CSharp.csproj", "{22D32A28-1261-0B34-C815-5DAD1EEA7D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D32A28-1261-0B34-C815-5DAD1EEA7D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D32A28-1261-0B34-C815-5DAD1EEA7D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D32A28-1261-0B34-C815-5DAD1EEA7D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D32A28-1261-0B34-C815-5DAD1EEA7D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
