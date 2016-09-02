@@ -47,6 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CashHandler.cs" />
      <Compile Include="Assets\Scripts\ItemScript.cs" />
+     <Compile Include="Assets\Scripts\Progress Bar\BarScript.cs" />
+     <Compile Include="Assets\Scripts\Progress Bar\Player.cs" />
+     <Compile Include="Assets\Scripts\Progress Bar\Stat.cs" />
      <Compile Include="Assets\Scripts\ShopHandler.cs" />
      <Compile Include="Assets\Scripts\TouchStuff.cs" />
  <Reference Include="UnityEngine.Networking">
