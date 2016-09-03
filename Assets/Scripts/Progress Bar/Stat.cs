@@ -9,7 +9,7 @@ public class Stat
 	private BarScript bar;
 
 	[SerializeField]
-	private float MaxVal;
+	private float maxVal;
 
 	[SerializeField]
 	private float currentVal;
@@ -26,7 +26,7 @@ public class Stat
 		}
 	}
 
-	public float maxVal {
+	public float MaxVal {
 		get {
 			return maxVal;
 		}

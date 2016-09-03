@@ -5,17 +5,23 @@ using System.Collections;
 
 public class BarScript : MonoBehaviour {
 
-	[SerializeField]
 	private float FillAmmount;
 
 	[SerializeField]
 	private Image content;
 
+	[SerializeField]
+	private Text valueText;
+
 	public float MaxValue { get; set; }
 
 	public float Value
 	{
-		set {
+		set
+		{
+		//	string[] tmp = valueText.text.Split ('l');
+		//	valueText.text = tmp [0] + " " + value;
+			valueText.text = "Next Upgrade at Level " +MaxValue;
 			FillAmmount = Map (value, 0, MaxValue, 0, 1);
 		}
 	}

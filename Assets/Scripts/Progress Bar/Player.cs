@@ -10,7 +10,13 @@ public class Player : MonoBehaviour {
 	{
 		level.Initalize ();
 	}
-	
+
+
+	public void MoveUp(){
+		level.CurrentVal += 1;
+	}
+
+
 	// Update is called once per frame
 	void Update () 
 	{
